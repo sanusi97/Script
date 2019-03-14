@@ -1,0 +1,8 @@
+1.select*from 'pegawai' where gaji NOT LIKE '2000000' AND gaji NOT LIKE'1230000';
+2.select*from 'pegawai' where 'tunjangan' is null;
+3.select*from 'pwgawai' where 'tunjangan' is NOT NULL;
+4.select count(idpegawai) from pegawai;
+5.select sum(gaji) as jumlah from pegawai;
+6.select avg(gaji) as rerata from pegawai;
+7.select min(gaji) as terkecil from pegawai;
+8.select max(gaji) as tertinggi from pegawai;

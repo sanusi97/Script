@@ -1,0 +1,6 @@
+select owner, count(species) as jumlah from pet group by owner;
+select spesies, count(species) as jumlah from pet group by;
+select sex, count(species) as jumlah from pet group by sex;
+select species,sex,count(species) as jumlah from pet group by species;
+select species,sex,count(species) as jumlah from pet where species ='cat' and species ='dog' group by sex, species;
+select sex, species from pet where sex is bot null group by sex, species;

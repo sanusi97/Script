@@ -1,0 +1,16 @@
+> cd c:/xampp/mysql/bin
+> mysql.exe -u root
+1.create database latihan01;
+2.show databases;
+3.use latihan01;
+4.create table data (NIM int(10), nama text);
+5.desc data;
+6.alter table data add column alamat varchar(20) first;
+7.desc data;
+8.alter table data change alamat alamat_jalan varchar(25);
+9.alter table data modify nama varchar(15); 
+10.desc data;
+11.alter table data drop nama_jalan;
+12.alter table data add primary key (nim);
+13.alter table drop primary key;
+14.drop database latihan01;

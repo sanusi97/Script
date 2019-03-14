@@ -1,0 +1,18 @@
+1. create yable data(Nim int(10), Nama varchar(20), Alamat_Jalan varchar(30), kota varchar(20), kodepos int(10), nohp int(15), jenis_kelamin varchar(10), tanggal_lahir date, kode_dosen int(10));
+2. insert into data(Nim, Nama, jenis_kelamin, kota, tanggal_lahir) values ("11223344","Ari Susantos","laki-laki","bekasi","1998-10-12"),('11223345",'Ario talib","laki-laki","cikarang","1999-11-16");
+3. select*from data;
+4. select8from data where Nim = "11223344";
+5. delet from data Nim = "11223346";
+6. select from data;
+7. select Nim, Nama, kota, jenis_kelamin, Tanggal_lahir from data
+	-> where tanggal_lahir >= "1996-01-02"
+	-> order by Nim;
+8. select*from data
+	-> where kota = "bekasi"
+	-> and jenis_kelamin = "perempuan";
+9. select*from data
+	-> where kota = "belasi"
+	-> and jenis_kelamin = "laki-laki"
+	-> or tanggal_lahir <= "1996-01-02"
+	-> and jenis_kelamin = "perempuan"
+	-> order by Nim;
